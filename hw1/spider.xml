@@ -1,0 +1,76 @@
+<mujoco>
+    <worldbody>
+        <light diffuse=".5 .5 .5" pos="0 0 2" dir="0 -1 0"/>
+        <geom type="plane" size="10 10 0.1" rgba=".5 0.2 0 1"/>
+
+        <body name="spider" pos="0 0 1" euler="0 0 0">
+            <joint type="free" axis="0 0 0" pos="0 0 0"/>
+            <body name="body" pos="0 0 0" euler="0 0 0">
+                <geom type="box" size=".2 .4 .1" rgba="0 .9 0 1" mass="1"/>
+            </body>
+
+            <body name="leg1" pos=".5 -.3 0" euler="0 -90 0">
+                <joint name="j1" type="hinge" axis="0 1 0" pos="0 0 .25" range="-45 45"/>
+                <geom type="box" size=".05 .05 .3" rgba="0 .9 0 1" mass="1"/>
+            </body>
+
+            <body name="leg2" pos="-.5 -.3 0" euler="0 90 0">
+                <joint name="j2" type="hinge" axis="0 1 0" pos="0 0 .25" range="-45 45"/>
+                <geom type="box" size=".05 .05 .3" rgba="0 .9 0 1" mass="1"/>
+            </body>
+
+            <body name="leg3" pos=".5 -.1 0" euler="0 -90 0">
+                <joint name="j3" type="hinge" axis="0 1 0" pos="0 0 .25" range="-45 45"/>
+                <geom type="box" size=".05 .05 .3" rgba="0 .9 0 1" mass="1"/>
+            </body>
+
+            <body name="leg4" pos="-.5 -.1 0" euler="0 90 0">
+                <joint name="j4" type="hinge" axis="0 1 0" pos="0 0 .25" range="-45 45"/>
+                <geom type="box" size=".05 .05 .3" rgba="0 .9 0 1" mass="1"/>
+            </body>
+
+            <body name="leg5" pos=".5 .1 0" euler="0 -90 0">
+                <joint name="j5" type="hinge" axis="0 1 0" pos="0 0 .25" range="-45 45"/>
+                <geom type="box" size=".05 .05 .3" rgba="0 .9 0 1" mass="1"/>
+            </body>
+
+            <body name="leg6" pos="-.5 .1 0" euler="0 90 0">
+                <joint name="j6" type="hinge" axis="0 1 0" pos="0 0 .25" range="-45 45"/>
+                <geom type="box" size=".05 .05 .3" rgba="0 .9 0 1" mass="1"/>
+            </body>
+
+            <body name="leg7" pos=".5 .3 0" euler="0 -90 0">
+                <joint name="j7" type="hinge" axis="0 1 0" pos="0 0 .25" range="-45 45"/>
+                <geom type="box" size=".05 .05 .3" rgba="0 .9 0 1" mass="1"/>
+            </body>
+
+            <body name="leg8" pos="-.5 .3 0" euler="0 90 0">
+                <joint name="j8" type="hinge" axis="0 1 0" pos="0 0 .25" range="-45 45"/>
+                <geom type="box" size=".05 .05 .3" rgba="0 .9 0 1" mass="1"/>
+            </body>
+        </body>
+    </worldbody>
+
+    <actuator>
+        <!-- Actuator for leg 1 -->
+        <motor joint="j1" name="m1" gear="1" ctrllimited="true" ctrlrange="-5 5"/>
+<!--        <position joint="j1" kp="0"/>-->
+<!--        <velocity joint="j1" kv="1"/>-->
+
+        <motor joint="j2" name="m2" gear="10" ctrllimited="true" ctrlrange="-5 5"/>
+        <motor joint="j3" name="m3" gear="10" ctrllimited="true" ctrlrange="-5 5"/>
+        <motor joint="j4" name="m4" gear="10" ctrllimited="true" ctrlrange="-5 5"/>
+        <motor joint="j5" name="m5" gear="10" ctrllimited="true" ctrlrange="-5 5"/>
+        <motor joint="j6" name="m6" gear="10" ctrllimited="true" ctrlrange="-5 5"/>
+        <motor joint="j7" name="m7" gear="10" ctrllimited="true" ctrlrange="-5 5"/>
+        <motor joint="j8" name="m8" gear="10" ctrllimited="true" ctrlrange="-5 5"/>
+
+        <!-- Actuator for leg 2 -->
+<!--        <motor name="motor2" joint="j2" type="torque" gear="1"/>-->
+
+        <!-- Add actuators for the rest of the legs (j3 to j8) -->
+        <!-- Example: Actuator for leg 3 -->
+        <!-- <motor name="motor3" joint="j3" type="torque" gear="1"/> -->
+        <!-- Add actuators for the remaining legs similarly -->
+    </actuator>
+</mujoco>
