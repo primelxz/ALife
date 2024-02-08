@@ -1,0 +1,58 @@
+<mujoco>
+  <worldbody>
+    <light diffuse=".5 .5 .5" pos="0 0 2" dir="0 -1 0" />
+    <geom type="plane" size="10 10 0.1" rgba=".5 0.2 0 1" />
+    <body name="unit0" pos="0 0 0" euler="0 0 0">
+      <joint name="body_joint0" type="free" axis="0 0 0" pos="0 0 0" range="-20 20" />
+      <body name="body0" pos="0 0.0 0" euler="0 0 0">
+        <geom type="box" size=".2 .3 .1" rgba="0 .9 0 1" mass="1.980926299874665" />
+      </body>
+      <body name="body0leg1" pos=".4 0.0 0" euler="0 -90 90">
+        <joint name="body0j1" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
+        <geom type="box" size=".05 .05 0.10147430668282192" rgba="0 .9 0 1" mass="0.7290238087993295" />
+      </body>
+      <body name="body0leg2" pos="-.4 0.0 0" euler="0 90 -90">
+        <joint name="body0j2" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
+        <geom type="box" size=".05 .05 0.10147430668282192" rgba="0 .9 0 1" mass="0.7290238087993295" />
+      </body>
+      <body name="unit1" pos="0 0 0" euler="0 0 0">
+        <joint name="body_joint1" type="hinge" axis="0 0 1" pos="0 .35 0" range="-20 20" />
+        <body name="body1" pos="0 0.6 0" euler="0 0 0">
+          <geom type="box" size=".2 .3 .1" rgba="0 .9 0 1" mass="1.980926299874665" />
+        </body>
+        <body name="body1leg1" pos=".4 0.6 0" euler="0 -90 90">
+          <joint name="body1j1" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
+          <geom type="box" size=".05 .05 0.10147430668282192" rgba="0 .9 0 1" mass="0.7290238087993295" />
+        </body>
+        <body name="body1leg2" pos="-.4 0.6 0" euler="0 90 -90">
+          <joint name="body1j2" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
+          <geom type="box" size=".05 .05 0.10147430668282192" rgba="0 .9 0 1" mass="0.7290238087993295" />
+        </body>
+        <body name="unit2" pos="0 0 0" euler="0 0 0">
+          <joint name="body_joint2" type="hinge" axis="0 0 1" pos="0 .35 0" range="-20 20" />
+          <body name="body2" pos="0 1.2 0" euler="0 0 0">
+            <geom type="box" size=".2 .3 .1" rgba="0 .9 0 1" mass="1.980926299874665" />
+          </body>
+          <body name="body2leg1" pos=".4 1.2 0" euler="0 -90 90">
+            <joint name="body2j1" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
+            <geom type="box" size=".05 .05 0.10147430668282192" rgba="0 .9 0 1" mass="0.7290238087993295" />
+          </body>
+          <body name="body2leg2" pos="-.4 1.2 0" euler="0 90 -90">
+            <joint name="body2j2" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
+            <geom type="box" size=".05 .05 0.10147430668282192" rgba="0 .9 0 1" mass="0.7290238087993295" />
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+  <actuator>
+    <motor joint="body0j1" name="m_body0j1" gear="5" ctrllimited="true" ctrlrange="-10 10" />
+    <motor joint="body0j2" name="m_body0j2" gear="5" ctrllimited="true" ctrlrange="-10 10" />
+    <motor joint="body1j1" name="m_body1j1" gear="5" ctrllimited="true" ctrlrange="-10 10" />
+    <motor joint="body1j2" name="m_body1j2" gear="5" ctrllimited="true" ctrlrange="-10 10" />
+    <motor joint="body_joint1" name="m_body_joint1" gear="3" ctrllimited="true" ctrlrange="-5 5" />
+    <motor joint="body2j1" name="m_body2j1" gear="5" ctrllimited="true" ctrlrange="-10 10" />
+    <motor joint="body2j2" name="m_body2j2" gear="5" ctrllimited="true" ctrlrange="-10 10" />
+    <motor joint="body_joint2" name="m_body_joint2" gear="3" ctrllimited="true" ctrlrange="-5 5" />
+  </actuator>
+</mujoco>

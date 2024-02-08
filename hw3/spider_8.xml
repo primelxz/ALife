@@ -1,0 +1,24 @@
+<mujoco>
+  <worldbody>
+    <light diffuse=".5 .5 .5" pos="0 0 2" dir="0 -1 0" />
+    <geom type="plane" size="10 10 0.1" rgba=".5 0.2 0 1" />
+    <body name="unit0" pos="0 0 0" euler="0 0 0">
+      <joint name="body_joint0" type="free" axis="0 0 0" pos="0 0 0" range="-20 20" />
+      <body name="body0" pos="0 0.0 0" euler="0 0 0">
+        <geom type="box" size=".2 .3 .1" rgba="0 .9 0 1" mass="1.674788019230383" />
+      </body>
+      <body name="body0leg1" pos=".4 0.0 0" euler="0 -90 90">
+        <joint name="body0j1" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
+        <geom type="box" size=".05 .05 0.10487459914978377" rgba="0 .9 0 1" mass="0.7357517897265804" />
+      </body>
+      <body name="body0leg2" pos="-.4 0.0 0" euler="0 90 -90">
+        <joint name="body0j2" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
+        <geom type="box" size=".05 .05 0.10487459914978377" rgba="0 .9 0 1" mass="0.7357517897265804" />
+      </body>
+    </body>
+  </worldbody>
+  <actuator>
+    <motor joint="body0j1" name="m_body0j1" gear="5" ctrllimited="true" ctrlrange="-10 10" />
+    <motor joint="body0j2" name="m_body0j2" gear="5" ctrllimited="true" ctrlrange="-10 10" />
+  </actuator>
+</mujoco>
