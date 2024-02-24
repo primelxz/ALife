@@ -5,67 +5,67 @@
     <body name="unit0" pos="0 0 0" euler="0 0 0">
       <joint name="body_joint0" type="free" axis="0 0 0" pos="0 0 0" range="-20 20" />
       <body name="body0" pos="0 0.0 0" euler="0 0 0">
-        <geom type="box" size=".2 .3 .1" rgba="0 .9 0 1" mass="1.3950482344285862" />
+        <geom type="box" size=".2 .3 .1" rgba="0 .9 0 1" mass="1.0248361465621194" />
       </body>
       <body name="body0leg1" pos=".4 0.0 0" euler="0 -90 90">
         <joint name="body0j1" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
-        <geom type="box" size=".05 .05 0.23537680954783577" rgba="0 .9 0 1" mass="0.9239032314022231" />
+        <geom type="box" size=".05 .05 0.12694049221885484" rgba="0 .9 0 1" mass="0.8280491453051654" />
       </body>
       <body name="body0leg2" pos="-.4 0.0 0" euler="0 90 -90">
         <joint name="body0j2" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
-        <geom type="box" size=".05 .05 0.23537680954783577" rgba="0 .9 0 1" mass="0.9239032314022231" />
+        <geom type="box" size=".05 .05 0.12694049221885484" rgba="0 .9 0 1" mass="0.8280491453051654" />
       </body>
       <body name="unit1" pos="0 0 0" euler="0 0 0">
         <joint name="body_joint1" type="hinge" axis="0 0 1" pos="0 .35 0" range="-20 20" />
         <body name="body1" pos="0 0.6 0" euler="0 0 0">
-          <geom type="box" size=".2 .3 .1" rgba="0 .9 0 1" mass="1.3950482344285862" />
+          <geom type="box" size=".2 .3 .1" rgba="0 .9 0 1" mass="1.0248361465621194" />
         </body>
         <body name="body1leg1" pos=".4 0.6 0" euler="0 -90 90">
           <joint name="body1j1" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
-          <geom type="box" size=".05 .05 0.23537680954783577" rgba="0 .9 0 1" mass="0.9239032314022231" />
+          <geom type="box" size=".05 .05 0.12694049221885484" rgba="0 .9 0 1" mass="0.8280491453051654" />
         </body>
         <body name="body1leg2" pos="-.4 0.6 0" euler="0 90 -90">
           <joint name="body1j2" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
-          <geom type="box" size=".05 .05 0.23537680954783577" rgba="0 .9 0 1" mass="0.9239032314022231" />
+          <geom type="box" size=".05 .05 0.12694049221885484" rgba="0 .9 0 1" mass="0.8280491453051654" />
         </body>
         <body name="unit2" pos="0 0 0" euler="0 0 0">
           <joint name="body_joint2" type="hinge" axis="0 0 1" pos="0 .35 0" range="-20 20" />
           <body name="body2" pos="0 1.2 0" euler="0 0 0">
-            <geom type="box" size=".2 .3 .1" rgba="0 .9 0 1" mass="1.3950482344285862" />
+            <geom type="box" size=".2 .3 .1" rgba="0 .9 0 1" mass="1.0248361465621194" />
           </body>
           <body name="body2leg1" pos=".4 1.2 0" euler="0 -90 90">
             <joint name="body2j1" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
-            <geom type="box" size=".05 .05 0.23537680954783577" rgba="0 .9 0 1" mass="0.9239032314022231" />
+            <geom type="box" size=".05 .05 0.12694049221885484" rgba="0 .9 0 1" mass="0.8280491453051654" />
           </body>
           <body name="body2leg2" pos="-.4 1.2 0" euler="0 90 -90">
             <joint name="body2j2" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
-            <geom type="box" size=".05 .05 0.23537680954783577" rgba="0 .9 0 1" mass="0.9239032314022231" />
+            <geom type="box" size=".05 .05 0.12694049221885484" rgba="0 .9 0 1" mass="0.8280491453051654" />
           </body>
           <body name="unit3" pos="0 0 0" euler="0 0 0">
             <joint name="body_joint3" type="hinge" axis="0 0 1" pos="0 .35 0" range="-20 20" />
             <body name="body3" pos="0 1.7999999999999998 0" euler="0 0 0">
-              <geom type="box" size=".2 .3 .1" rgba="0 .9 0 1" mass="1.3950482344285862" />
+              <geom type="box" size=".2 .3 .1" rgba="0 .9 0 1" mass="1.0248361465621194" />
             </body>
             <body name="body3leg1" pos=".4 1.7999999999999998 0" euler="0 -90 90">
               <joint name="body3j1" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
-              <geom type="box" size=".05 .05 0.23537680954783577" rgba="0 .9 0 1" mass="0.9239032314022231" />
+              <geom type="box" size=".05 .05 0.12694049221885484" rgba="0 .9 0 1" mass="0.8280491453051654" />
             </body>
             <body name="body3leg2" pos="-.4 1.7999999999999998 0" euler="0 90 -90">
               <joint name="body3j2" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
-              <geom type="box" size=".05 .05 0.23537680954783577" rgba="0 .9 0 1" mass="0.9239032314022231" />
+              <geom type="box" size=".05 .05 0.12694049221885484" rgba="0 .9 0 1" mass="0.8280491453051654" />
             </body>
             <body name="unit4" pos="0 0 0" euler="0 0 0">
               <joint name="body_joint4" type="hinge" axis="0 0 1" pos="0 .35 0" range="-20 20" />
               <body name="body4" pos="0 2.4 0" euler="0 0 0">
-                <geom type="box" size=".2 .3 .1" rgba="0 .9 0 1" mass="1.3950482344285862" />
+                <geom type="box" size=".2 .3 .1" rgba="0 .9 0 1" mass="1.0248361465621194" />
               </body>
               <body name="body4leg1" pos=".4 2.4 0" euler="0 -90 90">
                 <joint name="body4j1" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
-                <geom type="box" size=".05 .05 0.23537680954783577" rgba="0 .9 0 1" mass="0.9239032314022231" />
+                <geom type="box" size=".05 .05 0.12694049221885484" rgba="0 .9 0 1" mass="0.8280491453051654" />
               </body>
               <body name="body4leg2" pos="-.4 2.4 0" euler="0 90 -90">
                 <joint name="body4j2" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
-                <geom type="box" size=".05 .05 0.23537680954783577" rgba="0 .9 0 1" mass="0.9239032314022231" />
+                <geom type="box" size=".05 .05 0.12694049221885484" rgba="0 .9 0 1" mass="0.8280491453051654" />
               </body>
             </body>
           </body>

@@ -4,7 +4,6 @@ import numpy as np
 import time
 import random
 import xml.etree.ElementTree as ET
-import csv
 
 
 def indent(elem, level=0):
@@ -46,7 +45,7 @@ def random_generation(random_addition, identity_idx, body_mass, leg_length, leg_
         body = ET.SubElement(unit_body, 'body', name=body_name, pos=f'0 {.6 * i} 0', euler='0 0 0')
         ET.SubElement(body, 'geom', type='box', size='.2 .3 .1', rgba='0 .9 0 1', mass=str(body_mass))
 
-        for j in range(1, 3):  # Assuming each unit has 2 legs
+        for j in range(1, 3):
             leg_name = f"{body_name}leg{j}"
             joint_name = f"{body_name}j{j}"
             leg_pos = f".4 {.6 * i} 0" if j == 1 else f"-.4 {.6 * i} 0"
@@ -143,8 +142,8 @@ def simulation(random_addition, filename):
         return fitness
 
 
-num_generations = 2  # Number of generations to simulate
-population_size = 5  # Size of the population
+num_generations = 5  # Number of generations to simulate
+population_size = 3  # Size of the population
 
 population = []
 for i in range(population_size):
@@ -166,7 +165,7 @@ for generation in range(num_generations):
     offspring = []
     for individual in population:
         mutated = mutate_individual(individual.copy())
-        xml_file = f'spider_mutated_{mutated["id"]}.xml'
+        xml_file = f'spider_{generation}_mutated_{mutated["id"]}.xml'
         random_generation(mutated['random_num'], mutated['id'], mutated['body_mass'], mutated['leg_length'],
                           mutated['leg_mass'], xml_file)
         fitness = simulation(mutated['random_num'], xml_file)
