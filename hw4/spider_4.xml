@@ -1,32 +1,32 @@
 <mujoco>
   <worldbody>
-    <light diffuse=".5 .5 .5" pos="0 0 2" dir="0 -1 0" />
+    <light diffuse=".5 .5 .5" pos="0 0 0" dir="0 -1 0" />
     <geom type="plane" size="10 10 0.1" rgba=".5 0.2 0 1" />
     <body name="unit0" pos="0 0 0" euler="0 0 0">
       <joint name="body_joint0" type="free" axis="0 0 0" pos="0 0 0" range="-20 20" />
       <body name="body0" pos="0 0.0 0" euler="0 0 0">
-        <geom type="box" size=".2 .3 .1" rgba="0 .9 0 1" mass="1.0600015371098062" />
+        <geom type="box" size=".2 .3 .1" rgba="0 .9 0 1" mass="1.5086483149287004" />
       </body>
       <body name="body0leg1" pos=".4 0.0 0" euler="0 -90 90">
         <joint name="body0j1" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
-        <geom type="box" size=".05 .05 0.2015685542165686" rgba="0 .9 0 1" mass="0.5569030669757373" />
+        <geom type="box" size=".05 .05 0.2217912125613184" rgba="0 .9 0 1" mass="0.7378442829351495" />
       </body>
       <body name="body0leg2" pos="-.4 0.0 0" euler="0 90 -90">
         <joint name="body0j2" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
-        <geom type="box" size=".05 .05 0.2015685542165686" rgba="0 .9 0 1" mass="0.5569030669757373" />
+        <geom type="box" size=".05 .05 0.2217912125613184" rgba="0 .9 0 1" mass="0.7378442829351495" />
       </body>
       <body name="unit1" pos="0 0 0" euler="0 0 0">
         <joint name="body_joint1" type="hinge" axis="0 0 1" pos="0 .35 0" range="-20 20" />
         <body name="body1" pos="0 0.6 0" euler="0 0 0">
-          <geom type="box" size=".2 .3 .1" rgba="0 .9 0 1" mass="1.0600015371098062" />
+          <geom type="box" size=".2 .3 .1" rgba="0 .9 0 1" mass="1.5086483149287004" />
         </body>
         <body name="body1leg1" pos=".4 0.6 0" euler="0 -90 90">
           <joint name="body1j1" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
-          <geom type="box" size=".05 .05 0.2015685542165686" rgba="0 .9 0 1" mass="0.5569030669757373" />
+          <geom type="box" size=".05 .05 0.2217912125613184" rgba="0 .9 0 1" mass="0.7378442829351495" />
         </body>
         <body name="body1leg2" pos="-.4 0.6 0" euler="0 90 -90">
           <joint name="body1j2" type="hinge" axis="0 1 0" pos="0 0 .25" range="-30 30" />
-          <geom type="box" size=".05 .05 0.2015685542165686" rgba="0 .9 0 1" mass="0.5569030669757373" />
+          <geom type="box" size=".05 .05 0.2217912125613184" rgba="0 .9 0 1" mass="0.7378442829351495" />
         </body>
       </body>
     </body>

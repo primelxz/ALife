@@ -12,42 +12,42 @@
             <body name="leg1" pos=".5 -.3 0" euler="0 -90 0">
                 <joint name="j1" type="hinge" axis="0 1 0" pos="0 0 .25" range="-45 45" />
                 <geom type="box" size=".05 .05 .3" rgba="0 .9 0 1" mass="1" />
-            <body name="leg1_segment0" pos="0 0 1.5" euler="0 0 0"><joint name="j_leg1_segment0" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body></body>
+            <body name="leg1_segment0" pos="0 0 1.5" euler="0 0 0"><joint name="j_leg1_segment0" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body><body name="leg1_segment1" pos="0 0 1.7" euler="0 0 0"><joint name="j_leg1_segment1" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body></body>
 
             <body name="leg2" pos="-.5 -.3 0" euler="0 90 0">
                 <joint name="j2" type="hinge" axis="0 1 0" pos="0 0 .25" range="-45 45" />
                 <geom type="box" size=".05 .05 .3" rgba="0 .9 0 1" mass="1" />
-            <body name="leg2_segment0" pos="0 0 1.5" euler="0 0 0"><joint name="j_leg2_segment0" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body></body>
+            <body name="leg2_segment0" pos="0 0 1.5" euler="0 0 0"><joint name="j_leg2_segment0" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body><body name="leg2_segment1" pos="0 0 1.7" euler="0 0 0"><joint name="j_leg2_segment1" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body></body>
 
             <body name="leg3" pos=".5 -.1 0" euler="0 -90 0">
                 <joint name="j3" type="hinge" axis="0 1 0" pos="0 0 .25" range="-45 45" />
                 <geom type="box" size=".05 .05 .3" rgba="0 .9 0 1" mass="1" />
-            <body name="leg3_segment0" pos="0 0 1.5" euler="0 0 0"><joint name="j_leg3_segment0" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body></body>
+            <body name="leg3_segment0" pos="0 0 1.5" euler="0 0 0"><joint name="j_leg3_segment0" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body><body name="leg3_segment1" pos="0 0 1.7" euler="0 0 0"><joint name="j_leg3_segment1" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body></body>
 
             <body name="leg4" pos="-.5 -.1 0" euler="0 90 0">
                 <joint name="j4" type="hinge" axis="0 1 0" pos="0 0 .25" range="-45 45" />
                 <geom type="box" size=".05 .05 .3" rgba="0 .9 0 1" mass="1" />
-            <body name="leg4_segment0" pos="0 0 1.5" euler="0 0 0"><joint name="j_leg4_segment0" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body></body>
+            <body name="leg4_segment0" pos="0 0 1.5" euler="0 0 0"><joint name="j_leg4_segment0" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body><body name="leg4_segment1" pos="0 0 1.7" euler="0 0 0"><joint name="j_leg4_segment1" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body></body>
 
             <body name="leg5" pos=".5 .1 0" euler="0 -90 0">
                 <joint name="j5" type="hinge" axis="0 1 0" pos="0 0 .25" range="-45 45" />
                 <geom type="box" size=".05 .05 .3" rgba="0 .9 0 1" mass="1" />
-            <body name="leg5_segment0" pos="0 0 1.5" euler="0 0 0"><joint name="j_leg5_segment0" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body></body>
+            <body name="leg5_segment0" pos="0 0 1.5" euler="0 0 0"><joint name="j_leg5_segment0" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body><body name="leg5_segment1" pos="0 0 1.7" euler="0 0 0"><joint name="j_leg5_segment1" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body></body>
 
             <body name="leg6" pos="-.5 .1 0" euler="0 90 0">
                 <joint name="j6" type="hinge" axis="0 1 0" pos="0 0 .25" range="-45 45" />
                 <geom type="box" size=".05 .05 .3" rgba="0 .9 0 1" mass="1" />
-            <body name="leg6_segment0" pos="0 0 1.5" euler="0 0 0"><joint name="j_leg6_segment0" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body></body>
+            <body name="leg6_segment0" pos="0 0 1.5" euler="0 0 0"><joint name="j_leg6_segment0" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body><body name="leg6_segment1" pos="0 0 1.7" euler="0 0 0"><joint name="j_leg6_segment1" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body></body>
 
             <body name="leg7" pos=".5 .3 0" euler="0 -90 0">
                 <joint name="j7" type="hinge" axis="0 1 0" pos="0 0 .25" range="-45 45" />
                 <geom type="box" size=".05 .05 .3" rgba="0 .9 0 1" mass="1" />
-            <body name="leg7_segment0" pos="0 0 1.5" euler="0 0 0"><joint name="j_leg7_segment0" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body></body>
+            <body name="leg7_segment0" pos="0 0 1.5" euler="0 0 0"><joint name="j_leg7_segment0" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body><body name="leg7_segment1" pos="0 0 1.7" euler="0 0 0"><joint name="j_leg7_segment1" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body></body>
 
             <body name="leg8" pos="-.5 .3 0" euler="0 90 0">
                 <joint name="j8" type="hinge" axis="0 1 0" pos="0 0 .25" range="-45 45" />
                 <geom type="box" size=".05 .05 .3" rgba="0 .9 0 1" mass="1" />
-            <body name="leg8_segment0" pos="0 0 1.5" euler="0 0 0"><joint name="j_leg8_segment0" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body></body>
+            <body name="leg8_segment0" pos="0 0 1.5" euler="0 0 0"><joint name="j_leg8_segment0" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body><body name="leg8_segment1" pos="0 0 1.7" euler="0 0 0"><joint name="j_leg8_segment1" type="hinge" axis="0 1 0" pos="0 0 -.25" range="-10 10" /><geom type="box" size=".05 .05 .2" rgba="0 .9 0 1" mass="1" /></body></body>
         </body>
     </worldbody>
 
@@ -60,5 +60,5 @@
         <motor joint="j6" name="m6" gear="10" ctrllimited="true" ctrlrange="-5 5" />
         <motor joint="j7" name="m7" gear="10" ctrllimited="true" ctrlrange="-5 5" />
         <motor joint="j8" name="m8" gear="10" ctrllimited="true" ctrlrange="-5 5" />
-    <motor joint="j_leg1_segment0" name="m_leg1_segment0" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg2_segment0" name="m_leg2_segment0" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg3_segment0" name="m_leg3_segment0" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg4_segment0" name="m_leg4_segment0" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg5_segment0" name="m_leg5_segment0" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg6_segment0" name="m_leg6_segment0" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg7_segment0" name="m_leg7_segment0" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg8_segment0" name="m_leg8_segment0" gear="10" ctrllimited="true" ctrlrange="-10 10" /></actuator>
+    <motor joint="j_leg1_segment0" name="m_leg1_segment0" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg1_segment1" name="m_leg1_segment1" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg2_segment0" name="m_leg2_segment0" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg2_segment1" name="m_leg2_segment1" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg3_segment0" name="m_leg3_segment0" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg3_segment1" name="m_leg3_segment1" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg4_segment0" name="m_leg4_segment0" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg4_segment1" name="m_leg4_segment1" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg5_segment0" name="m_leg5_segment0" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg5_segment1" name="m_leg5_segment1" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg6_segment0" name="m_leg6_segment0" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg6_segment1" name="m_leg6_segment1" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg7_segment0" name="m_leg7_segment0" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg7_segment1" name="m_leg7_segment1" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg8_segment0" name="m_leg8_segment0" gear="10" ctrllimited="true" ctrlrange="-10 10" /><motor joint="j_leg8_segment1" name="m_leg8_segment1" gear="10" ctrllimited="true" ctrlrange="-10 10" /></actuator>
 </mujoco>
